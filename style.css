@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 100px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(89, 89, 237),
+    rgb(162, 68, 162),
+    rgb(71, 71, 215)
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  box-shadow: 1px 2px 5px grey, -1px -2px 5px grey;
+  /* border: 2px solid black; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30vw;
+  height: 60vh;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.slots {
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.slot {
+  width: 80px;
+  height: 70px;
+  background-image: linear-gradient(300deg, rgb(69, 55, 69), rgb(83, 83, 120));
+  display: flex;
+  margin: 0 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+}
+
+#spin {
+  font-size: large;
+  font-weight: 550;
+}
+
+button {
+  padding: 7px 22px;
+  border-radius: 7px;
+  border: none;
+  background: goldenrod;
+  font-size: large;
+}
+
+button:hover {
+  background: gold;
+}
+
+p {
+  margin-top: 40px;
+}
